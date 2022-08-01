@@ -1,2 +1,2 @@
 # test
-master 2 commit
+master 1 commit
