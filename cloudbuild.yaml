@@ -16,8 +16,15 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
     entrypoint: 'bash'
-    args: [ '-c', 'docker login --username=_json_key --password=$$_INVENTCORP_BASE_IMAGES_KEY_JSON' ]
-    secretEnv: [ '_INVENTCORP_BASE_IMAGES_KEY_JSON']
+    args: [ '-c', 'docker login --username=_json_key --password=$$PASSWORD' ]
+    secretEnv: [ 'PASSWORD']
+  availableSecrets:
+    secretManager:
+      - versionName: projects/51754656854/secrets/PASSWORD/versions/1
+        env: 'PASSWORD'
+
+
+
 
   - id: 'branch name'
     name: us-docker.pkg.dev/pp-laravel-base-staging/base-images/inventcorp-circleci-image-8.2.3-fpm-nodejs-14:20230405T120340_74c74ec
