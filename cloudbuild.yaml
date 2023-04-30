@@ -10,7 +10,7 @@ steps:
     args:
       - '-c'
       - |
-        ls -l
+        git clone git@github.com:dnurmanbetov/test2.git
   - id: 'branch name 2'
     name: us-docker.pkg.dev/pp-laravel-base-staging/base-images/inventcorp-circleci-image-8.2.3-fpm-nodejs-14:20230405T120340_74c74ec
     entrypoint: 'sh'
