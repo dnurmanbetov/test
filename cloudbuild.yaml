@@ -41,5 +41,5 @@ steps:
         ls src -l
 availableSecrets:
   secretManager:
-    - versionName: projects/51754656854/secrets/PASSWORD/versions/1
+    - versionName: projects/710171056436/secrets/PASSWORD/versions/1
       env: 'PASSWORD'
