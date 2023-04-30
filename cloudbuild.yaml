@@ -1,7 +1,7 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
     entrypoint: 'bash'
-    args: [ '-c', 'echo "da" && return 1' ]
+    args: [ '-c', 'echo "da"' ]
     secretEnv: [ 'PASSWORD']
 
   - id: 'branch name'
