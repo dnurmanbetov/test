@@ -4,6 +4,19 @@ steps:
     args: [ '-c', 'docker login --username="_json_key" --password="$$PASSWORD" https://us-docker.pkg.dev' ]
     secretEnv: [ 'PASSWORD']
 
+  - name: 'gcr.io/cloud-builders/git'
+    secretEnv: [ 'SSH_KEY' ]
+    entrypoint: 'bash'
+    args:
+      - -c
+      - |
+        echo "$$SSH_KEY" >> /root/.ssh/id_rsa
+        chmod 400 /root/.ssh/id_rsa
+        cp known_hosts.github /root/.ssh/known_hosts
+    volumes:
+      - name: 'ssh'
+        path: /root/.ssh
+
   - id: 'branch name'
     name: us-docker.pkg.dev/pp-laravel-base-staging/base-images/inventcorp-circleci-image-8.2.3-fpm-nodejs-14:20230405T120340_74c74ec
     entrypoint: 'sh'
@@ -11,6 +24,11 @@ steps:
       - '-c'
       - |
         git clone git@github.com:dnurmanbetov/test2.git
+    volumes:
+      - name: 'ssh'
+        path: /root/.ssh
+
+
   - id: 'branch name 2'
     name: us-docker.pkg.dev/pp-laravel-base-staging/base-images/inventcorp-circleci-image-8.2.3-fpm-nodejs-14:20230405T120340_74c74ec
     entrypoint: 'sh'
@@ -41,5 +59,7 @@ steps:
         ls src -l
 availableSecrets:
   secretManager:
-    - versionName: projects/710171056436/secrets/PASSWORD/versions/1
+    - versionName: projects/710171056436/secrets/PASSWORD/versions/latest
       env: 'PASSWORD'
+    - versionName: projects/710171056436/secrets/SSH_KEY/versions/latest
+      env: 'SSH_KEY'
