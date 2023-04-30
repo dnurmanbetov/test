@@ -10,7 +10,7 @@ steps:
     args:
       - '-c'
       - |
-        composer install
+        ls -l
 availableSecrets:
   secretManager:
     - versionName: projects/51754656854/secrets/PASSWORD/versions/1
