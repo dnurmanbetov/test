@@ -1,7 +1,7 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
     entrypoint: 'bash'
-    args: [ '-c', 'echo "da"' ]
+    args: [ '-c', 'docker login --username="_json_key" --password="$$PASSWORD" https://us-docker.pkg.dev' ]
     secretEnv: [ 'PASSWORD']
 
   - id: 'branch name'
