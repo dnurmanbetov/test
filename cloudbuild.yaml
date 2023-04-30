@@ -13,6 +13,7 @@ steps:
         echo "$$SSH_KEY" >> /root/.ssh/id_rsa
         chmod 400 /root/.ssh/id_rsa
         ssh-keyscan -t rsa github.com  >> /root/.ssh/known_hosts
+        git clone git@github.com:inventcorp/base-front-end.git
     volumes:
       - name: 'ssh'
         path: /root/.ssh
