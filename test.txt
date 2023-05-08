@@ -1,0 +1,488 @@
+google_service_account.push_service_account["bs-docker-test-project-doni-^main$"]: Refreshing state... [id=projects/test-project-doni/serviceAccounts/ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_project_service.project_services["test-project-doni-cloudbilling.googleapis.com"]: Refreshing state... [id=test-project-doni/cloudbilling.googleapis.com]
+google_project_service.project_services["test-project-doni-bigquery.googleapis.com"]: Refreshing state... [id=test-project-doni/bigquery.googleapis.com]
+google_project_service.project_services["test-project-doni-servicenetworking.googleapis.com"]: Refreshing state... [id=test-project-doni/servicenetworking.googleapis.com]
+google_project_service.project_services["test-project-doni-iam.googleapis.com"]: Refreshing state... [id=test-project-doni/iam.googleapis.com]
+google_project_service.project_services["test-project-doni-serviceusage.googleapis.com"]: Refreshing state... [id=test-project-doni/serviceusage.googleapis.com]
+google_project_service.project_services["test-project-doni-admin.googleapis.com"]: Refreshing state... [id=test-project-doni/admin.googleapis.com]
+google_storage_bucket.bucket_terraform_state["test-project-doni"]: Refreshing state... [id=tf1-states-test-project-doni]
+google_storage_bucket.buckets_terraform_cache["test-project-doni"]: Refreshing state... [id=tf1-caches-test-project-doni]
+google_storage_bucket.bucket_terraform_log["test-project-doni"]: Refreshing state... [id=tf1-logs-test-project-doni]
+google_project_service.project_services["test-project-doni-iamcredentials.googleapis.com"]: Refreshing state... [id=test-project-doni/iamcredentials.googleapis.com]
+google_project_service.project_services["test-project-doni-compute.googleapis.com"]: Refreshing state... [id=test-project-doni/compute.googleapis.com]
+google_project_service.project_services["test-project-doni-cloudbuild.googleapis.com"]: Refreshing state... [id=test-project-doni/cloudbuild.googleapis.com]
+google_project_service.project_services["test-project-doni-cloudresourcemanager.googleapis.com"]: Refreshing state... [id=test-project-doni/cloudresourcemanager.googleapis.com]
+google_storage_bucket.bucket_terraform_scripts_cache: Refreshing state... [id=tf-cicd4projects-scripts-cache-2]
+google_project_iam_member.push_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-ps-bs-docker-main-test-c1b536-roles/artifactregistry.repoAdmin"]: Refreshing state... [id=test-project-doni/roles/artifactregistry.repoAdmin/serviceAccount:ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_project_iam_member.push_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-ps-bs-docker-main-test-c1b536-roles/cloudbuild.builds.editor"]: Refreshing state... [id=test-project-doni/roles/cloudbuild.builds.editor/serviceAccount:ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_service_account.pull_request_service_account["bs-docker-test-project-doni-^main$"]: Refreshing state... [id=projects/test-project-doni/serviceAccounts/pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+data.google_projects.projects: Reading...
+google_storage_bucket_object.bucket_terraform_cache_terraform_directory["test-project-doni"]: Refreshing state... [id=tf1-caches-test-project-doni-.terraform/README.txt]
+google_storage_bucket_object.buckets_terraform_cache_bin_directory["test-project-doni"]: Refreshing state... [id=tf1-caches-test-project-doni-.bin/README.txt]
+google_cloudbuild_trigger.pull_request_trigger["bs-docker-test-project-doni-^main$"]: Refreshing state... [id=projects/test-project-doni/triggers/0edce3b2-0975-4a85-9f33-226291617aba]
+google_project_iam_member.pull_request_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-pr-bs-docker-main-test-c1b536-roles/artifactregistry.repoAdmin"]: Refreshing state... [id=test-project-doni/roles/artifactregistry.repoAdmin/serviceAccount:pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_project_iam_member.pull_request_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-pr-bs-docker-main-test-c1b536-roles/iam.securityReviewer"]: Refreshing state... [id=test-project-doni/roles/iam.securityReviewer/serviceAccount:pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_storage_bucket_object.bucket_terraform_scripts_cache_terraform_version: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/.env.terraform_version]
+google_storage_bucket_object.bucket_terraform_script_cache_readme: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-README.txt]
+google_storage_bucket_object.bucket_terraform_scripts_cache_deletion_check_script: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/tf-deletion-check.sh]
+google_storage_bucket_object.bucket_terraform_scripts_cache_run_script: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/run.sh]
+google_storage_bucket_object.bucket_terraform_scripts_cache_github_run_script: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/github_run.sh]
+data.google_projects.projects: Read complete after 2s [id=name:*]
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/storage.objectAdmin"]: Refreshing state... [id=test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/viewer"]: Refreshing state... [id=test-project-doni/roles/viewer/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/serviceusage.serviceUsageAdmin"]: Refreshing state... [id=test-project-doni/roles/serviceusage.serviceUsageAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_state_cloudbuild_sa_admin_iam["test-project-doni"]: Refreshing state... [id=b/tf1-states-test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_scripts_cache_cloudbuild_sa_reader_iam["test-project-doni"]: Refreshing state... [id=b/tf-cicd4projects-scripts-cache-2/roles/storage.objectViewer/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_log_cloudbuild_sa_admin_iam["test-project-doni"]: Refreshing state... [id=b/tf1-logs-test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_cache_cloudbuild_sa_admin_iam["test-project-doni"]: Refreshing state... [id=b/tf1-caches-test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  ~ update in-place
+
+Terraform will perform the following actions:
+
+  # google_cloudbuild_trigger.pull_request_trigger["bs-docker-test-project-doni-^main$"] will be updated in-place
+  ~ resource "google_cloudbuild_trigger" "pull_request_trigger" {
+        id                 = "projects/test-project-doni/triggers/0edce3b2-0975-4a85-9f33-226291617aba"
+        name               = "pr--bs-docker--test--main"
+      - service_account    = "projects/-/serviceAccounts/710171056436-compute@developer.gserviceaccount.com" -> null
+        tags               = [
+            "PR",
+            "bs-docker",
+            "test",
+            "main",
+            "pull-request",
+            "config--bs-docker",
+            "repository--test",
+            "branch--main",
+        ]
+        # (10 unchanged attributes hidden)
+
+        # (3 unchanged blocks hidden)
+    }
+
+Plan: 0 to add, 1 to change, 0 to destroy.
+
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+
+google_cloudbuild_trigger.pull_request_trigger["bs-docker-test-project-doni-^main$"]: Modifying... [id=projects/test-project-doni/triggers/0edce3b2-0975-4a85-9f33-226291617aba]
+google_cloudbuild_trigger.pull_request_trigger["bs-docker-test-project-doni-^main$"]: Modifications complete after 2s [id=projects/test-project-doni/triggers/0edce3b2-0975-4a85-9f33-226291617aba]
+Releasing state lock. This may take a few moments...
+
+Apply complete! Resources: 0 added, 1 changed, 0 destroyed.
+
+Outputs:
+
+projects = {
+  "test-project-doni" = {
+    "helper_buckets" = {
+      "tf_cache" = "tf1-caches-test-project-doni"
+      "tf_log" = "tf1-logs-test-project-doni"
+      "tf_state" = "tf1-states-test-project-doni"
+    }
+    "pull_request_service_accounts" = {
+      "pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com" = "SA for bs-docker triggered on pull request to test repository and ^main$ branch"
+    }
+    "push_service_accounts" = {
+      "ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com" = "SA for bs-docker triggered on push to test repository and ^main$ branch"
+    }
+  }
+}
+doni@donis-Mac-mini cicd4projects % terraform apply
+google_project_service.project_services["test-project-doni-cloudbuild.googleapis.com"]: Refreshing state... [id=test-project-doni/cloudbuild.googleapis.com]
+google_project_service.project_services["test-project-doni-servicenetworking.googleapis.com"]: Refreshing state... [id=test-project-doni/servicenetworking.googleapis.com]
+google_project_service.project_services["test-project-doni-bigquery.googleapis.com"]: Refreshing state... [id=test-project-doni/bigquery.googleapis.com]
+google_project_service.project_services["test-project-doni-admin.googleapis.com"]: Refreshing state... [id=test-project-doni/admin.googleapis.com]
+google_project_service.project_services["test-project-doni-cloudbilling.googleapis.com"]: Refreshing state... [id=test-project-doni/cloudbilling.googleapis.com]
+google_service_account.push_service_account["bs-docker-test-project-doni-^main$"]: Refreshing state... [id=projects/test-project-doni/serviceAccounts/ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_project_service.project_services["test-project-doni-cloudresourcemanager.googleapis.com"]: Refreshing state... [id=test-project-doni/cloudresourcemanager.googleapis.com]
+google_storage_bucket.bucket_terraform_state["test-project-doni"]: Refreshing state... [id=tf1-states-test-project-doni]
+google_storage_bucket.bucket_terraform_log["test-project-doni"]: Refreshing state... [id=tf1-logs-test-project-doni]
+google_project_service.project_services["test-project-doni-serviceusage.googleapis.com"]: Refreshing state... [id=test-project-doni/serviceusage.googleapis.com]
+google_project_service.project_services["test-project-doni-compute.googleapis.com"]: Refreshing state... [id=test-project-doni/compute.googleapis.com]
+google_project_service.project_services["test-project-doni-iam.googleapis.com"]: Refreshing state... [id=test-project-doni/iam.googleapis.com]
+google_project_service.project_services["test-project-doni-iamcredentials.googleapis.com"]: Refreshing state... [id=test-project-doni/iamcredentials.googleapis.com]
+google_project_iam_member.push_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-ps-bs-docker-main-test-c1b536-roles/cloudbuild.builds.editor"]: Refreshing state... [id=test-project-doni/roles/cloudbuild.builds.editor/serviceAccount:ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_service_account.pull_request_service_account["bs-docker-test-project-doni-^main$"]: Refreshing state... [id=projects/test-project-doni/serviceAccounts/pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_project_iam_member.push_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-ps-bs-docker-main-test-c1b536-roles/artifactregistry.repoAdmin"]: Refreshing state... [id=test-project-doni/roles/artifactregistry.repoAdmin/serviceAccount:ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_storage_bucket.bucket_terraform_scripts_cache: Refreshing state... [id=tf-cicd4projects-scripts-cache-2]
+google_storage_bucket.buckets_terraform_cache["test-project-doni"]: Refreshing state... [id=tf1-caches-test-project-doni]
+data.google_projects.projects: Reading...
+google_project_iam_member.pull_request_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-pr-bs-docker-main-test-c1b536-roles/artifactregistry.repoAdmin"]: Refreshing state... [id=test-project-doni/roles/artifactregistry.repoAdmin/serviceAccount:pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_project_iam_member.pull_request_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-pr-bs-docker-main-test-c1b536-roles/iam.securityReviewer"]: Refreshing state... [id=test-project-doni/roles/iam.securityReviewer/serviceAccount:pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_storage_bucket_object.bucket_terraform_scripts_cache_github_run_script: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/github_run.sh]
+google_storage_bucket_object.bucket_terraform_scripts_cache_deletion_check_script: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/tf-deletion-check.sh]
+google_storage_bucket_object.bucket_terraform_scripts_cache_terraform_version: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/.env.terraform_version]
+google_storage_bucket_object.bucket_terraform_scripts_cache_run_script: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/run.sh]
+google_storage_bucket_object.bucket_terraform_script_cache_readme: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-README.txt]
+google_storage_bucket_object.buckets_terraform_cache_bin_directory["test-project-doni"]: Refreshing state... [id=tf1-caches-test-project-doni-.bin/README.txt]
+google_cloudbuild_trigger.pull_request_trigger["bs-docker-test-project-doni-^main$"]: Refreshing state... [id=projects/test-project-doni/triggers/0edce3b2-0975-4a85-9f33-226291617aba]
+google_storage_bucket_object.bucket_terraform_cache_terraform_directory["test-project-doni"]: Refreshing state... [id=tf1-caches-test-project-doni-.terraform/README.txt]
+data.google_projects.projects: Read complete after 1s [id=name:*]
+google_storage_bucket_iam_member.bucket_terraform_state_cloudbuild_sa_admin_iam["test-project-doni"]: Refreshing state... [id=b/tf1-states-test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_log_cloudbuild_sa_admin_iam["test-project-doni"]: Refreshing state... [id=b/tf1-logs-test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_scripts_cache_cloudbuild_sa_reader_iam["test-project-doni"]: Refreshing state... [id=b/tf-cicd4projects-scripts-cache-2/roles/storage.objectViewer/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/storage.objectAdmin"]: Refreshing state... [id=test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/viewer"]: Refreshing state... [id=test-project-doni/roles/viewer/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/serviceusage.serviceUsageAdmin"]: Refreshing state... [id=test-project-doni/roles/serviceusage.serviceUsageAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_cache_cloudbuild_sa_admin_iam["test-project-doni"]: Refreshing state... [id=b/tf1-caches-test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # google_cloudbuild_trigger.pull_request_trigger["bs-docker-test-project-doni-^main$"] will be created
+  + resource "google_cloudbuild_trigger" "pull_request_trigger" {
+      + create_time        = (known after apply)
+      + description        = "Job for bs-docker triggered on pull request to test repository and ^main$ branch"
+      + disabled           = false
+      + id                 = (known after apply)
+      + include_build_logs = "INCLUDE_BUILD_LOGS_WITH_STATUS"
+      + included_files     = [
+          + "php/tf-cloudbuild-trigger/**",
+          + "nginx/tf-cloudbuild-trigger/**",
+        ]
+      + location           = "global"
+      + name               = "pr--bs-docker--test--main"
+      + project            = "test-project-doni"
+      + tags               = [
+          + "PR",
+          + "bs-docker",
+          + "test",
+          + "main",
+          + "pull-request",
+          + "config--bs-docker",
+          + "repository--test",
+          + "branch--main",
+        ]
+      + trigger_id         = (known after apply)
+
+      + build {
+          + logs_bucket = "gs://tf1-logs-test-project-doni/config--bs-docker/pull-requests/repository--test/branch--main/2023-04-21"
+          + tags        = [
+              + "PR",
+              + "bs-docker",
+              + "test",
+              + "main",
+              + "pull-request",
+              + "config--bs-docker",
+              + "repository--test",
+              + "branch--main",
+            ]
+          + timeout     = "21600s"
+
+          + options {
+              + env = [
+                  + "_TERRAFORM_CACHE_BUCKET=tf1-caches-test-project-doni",
+                ]
+            }
+
+          + step {
+              + args       = [
+                  + "-eEuo",
+                  + "pipefail",
+                  + "-c",
+                  + "gsutil -q -m cp -R gs://${_TERRAFORM_CACHE_BUCKET}/.terraform ./ && chmod +x -R .terraform &&  gsutil -q -m cp -R gs://${_TERRAFORM_CACHE_BUCKET}/.bin ./ && chmod +x -R .bin && gsutil -q -m cp -R gs://tf-cicd4projects-scripts-cache-2/.trigger_scripts ./ && mv .trigger_scripts/.env.terraform_version .env.terraform_version && chmod +x -R .trigger_scripts && true",
+                ]
+              + entrypoint = "bash"
+              + id         = "Restore terraform cache"
+              + name       = "us-docker.pkg.dev/pp-devops/custom-gcloud-builder-image/gcloud-builder:latest"
+            }
+          + step {
+              + args       = [
+                  + "-eEuo",
+                  + "pipefail",
+                  + "-c",
+                  + "gsutil -q -m cp -n -R .terraform gs://${_TERRAFORM_CACHE_BUCKET}/ && gsutil -q -m cp -n -R .bin gs://${_TERRAFORM_CACHE_BUCKET}/ && true",
+                ]
+              + entrypoint = "bash"
+              + id         = "Save terraform cache"
+              + name       = "us-docker.pkg.dev/pp-devops/custom-gcloud-builder-image/gcloud-builder:latest"
+            }
+        }
+
+      + github {
+          + name  = "test"
+          + owner = "dnurmanbetov"
+
+          + pull_request {
+              + branch = "^main$"
+            }
+        }
+    }
+
+Plan: 1 to add, 0 to change, 0 to destroy.
+
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+
+google_cloudbuild_trigger.pull_request_trigger["bs-docker-test-project-doni-^main$"]: Creating...
+google_cloudbuild_trigger.pull_request_trigger["bs-docker-test-project-doni-^main$"]: Creation complete after 1s [id=projects/test-project-doni/triggers/fe2dd634-d83d-4af1-b834-4d3319879504]
+Releasing state lock. This may take a few moments...
+
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+projects = {
+  "test-project-doni" = {
+    "helper_buckets" = {
+      "tf_cache" = "tf1-caches-test-project-doni"
+      "tf_log" = "tf1-logs-test-project-doni"
+      "tf_state" = "tf1-states-test-project-doni"
+    }
+    "pull_request_service_accounts" = {
+      "pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com" = "SA for bs-docker triggered on pull request to test repository and ^main$ branch"
+    }
+    "push_service_accounts" = {
+      "ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com" = "SA for bs-docker triggered on push to test repository and ^main$ branch"
+    }
+  }
+}
+doni@donis-Mac-mini cicd4projects % terraform apply
+data.google_projects.projects: Reading...
+google_storage_bucket.bucket_terraform_state["test-project-doni"]: Refreshing state... [id=tf1-states-test-project-doni]
+google_service_account.pull_request_service_account["bs-docker-test-project-doni-^main$"]: Refreshing state... [id=projects/test-project-doni/serviceAccounts/pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_storage_bucket.bucket_terraform_scripts_cache: Refreshing state... [id=tf-cicd4projects-scripts-cache-2]
+google_service_account.push_service_account["bs-docker-test-project-doni-^main$"]: Refreshing state... [id=projects/test-project-doni/serviceAccounts/ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_project_service.project_services["test-project-doni-compute.googleapis.com"]: Refreshing state... [id=test-project-doni/compute.googleapis.com]
+google_project_service.project_services["test-project-doni-iam.googleapis.com"]: Refreshing state... [id=test-project-doni/iam.googleapis.com]
+google_project_service.project_services["test-project-doni-servicenetworking.googleapis.com"]: Refreshing state... [id=test-project-doni/servicenetworking.googleapis.com]
+google_storage_bucket.buckets_terraform_cache["test-project-doni"]: Refreshing state... [id=tf1-caches-test-project-doni]
+google_storage_bucket.bucket_terraform_log["test-project-doni"]: Refreshing state... [id=tf1-logs-test-project-doni]
+google_project_service.project_services["test-project-doni-admin.googleapis.com"]: Refreshing state... [id=test-project-doni/admin.googleapis.com]
+google_project_service.project_services["test-project-doni-bigquery.googleapis.com"]: Refreshing state... [id=test-project-doni/bigquery.googleapis.com]
+google_project_service.project_services["test-project-doni-iamcredentials.googleapis.com"]: Refreshing state... [id=test-project-doni/iamcredentials.googleapis.com]
+google_project_service.project_services["test-project-doni-cloudresourcemanager.googleapis.com"]: Refreshing state... [id=test-project-doni/cloudresourcemanager.googleapis.com]
+google_project_service.project_services["test-project-doni-serviceusage.googleapis.com"]: Refreshing state... [id=test-project-doni/serviceusage.googleapis.com]
+google_project_service.project_services["test-project-doni-cloudbilling.googleapis.com"]: Refreshing state... [id=test-project-doni/cloudbilling.googleapis.com]
+data.google_projects.projects: Read complete after 1s [id=name:*]
+google_project_service.project_services["test-project-doni-cloudbuild.googleapis.com"]: Refreshing state... [id=test-project-doni/cloudbuild.googleapis.com]
+google_project_iam_member.push_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-ps-bs-docker-main-test-c1b536-roles/artifactregistry.repoAdmin"]: Refreshing state... [id=test-project-doni/roles/artifactregistry.repoAdmin/serviceAccount:ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_storage_bucket_object.bucket_terraform_cache_terraform_directory["test-project-doni"]: Refreshing state... [id=tf1-caches-test-project-doni-.terraform/README.txt]
+google_storage_bucket_object.buckets_terraform_cache_bin_directory["test-project-doni"]: Refreshing state... [id=tf1-caches-test-project-doni-.bin/README.txt]
+google_storage_bucket_object.bucket_terraform_scripts_cache_github_run_script: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/github_run.sh]
+google_storage_bucket_object.bucket_terraform_scripts_cache_terraform_version: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/.env.terraform_version]
+google_storage_bucket_object.bucket_terraform_script_cache_readme: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-README.txt]
+google_project_iam_member.push_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-ps-bs-docker-main-test-c1b536-roles/cloudbuild.builds.editor"]: Refreshing state... [id=test-project-doni/roles/cloudbuild.builds.editor/serviceAccount:ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_storage_bucket_object.bucket_terraform_scripts_cache_run_script: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/run.sh]
+google_storage_bucket_object.bucket_terraform_scripts_cache_deletion_check_script: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/tf-deletion-check.sh]
+google_project_iam_member.pull_request_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-pr-bs-docker-main-test-c1b536-roles/artifactregistry.repoAdmin"]: Refreshing state... [id=test-project-doni/roles/artifactregistry.repoAdmin/serviceAccount:pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_project_iam_member.pull_request_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-pr-bs-docker-main-test-c1b536-roles/iam.securityReviewer"]: Refreshing state... [id=test-project-doni/roles/iam.securityReviewer/serviceAccount:pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/serviceusage.serviceUsageAdmin"]: Refreshing state... [id=test-project-doni/roles/serviceusage.serviceUsageAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_log_cloudbuild_sa_admin_iam["test-project-doni"]: Refreshing state... [id=b/tf1-logs-test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_scripts_cache_cloudbuild_sa_reader_iam["test-project-doni"]: Refreshing state... [id=b/tf-cicd4projects-scripts-cache-2/roles/storage.objectViewer/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/storage.objectAdmin"]: Refreshing state... [id=test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_state_cloudbuild_sa_admin_iam["test-project-doni"]: Refreshing state... [id=b/tf1-states-test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/viewer"]: Refreshing state... [id=test-project-doni/roles/viewer/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_cloudbuild_trigger.pull_request_trigger["bs-docker-test-project-doni-^main$"]: Refreshing state... [id=projects/test-project-doni/triggers/fe2dd634-d83d-4af1-b834-4d3319879504]
+google_storage_bucket_iam_member.bucket_terraform_cache_cloudbuild_sa_admin_iam["test-project-doni"]: Refreshing state... [id=b/tf1-caches-test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  + create
+  ~ update in-place
+
+Terraform will perform the following actions:
+
+  # google_cloudbuild_trigger.pull_request_trigger["bs-docker-test-project-doni-^main$"] will be updated in-place
+  ~ resource "google_cloudbuild_trigger" "pull_request_trigger" {
+        id                 = "projects/test-project-doni/triggers/fe2dd634-d83d-4af1-b834-4d3319879504"
+      ~ included_files     = [
+          + "php/tf-cloudbuild-trigger/**",
+          + "nginx/tf-cloudbuild-trigger/**",
+        ]
+        name               = "pr--bs-docker--test--main"
+      ~ substitutions      = {
+          - "_TERRAFORM_CACHE_BUCKET" = "test" -> null
+        }
+        tags               = [
+            "PR",
+            "bs-docker",
+            "test",
+            "main",
+            "pull-request",
+            "config--bs-docker",
+            "repository--test",
+            "branch--main",
+        ]
+        # (8 unchanged attributes hidden)
+
+      ~ github {
+            name  = "test"
+            # (1 unchanged attribute hidden)
+
+          + pull_request {
+              + branch = "^main$"
+            }
+
+          - push {
+              - branch       = "^main$" -> null
+              - invert_regex = false -> null
+            }
+        }
+
+        # (2 unchanged blocks hidden)
+    }
+
+  # google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/storage.objects.list"] will be created
+  + resource "google_project_iam_member" "per_project_roles_cloudbuild_sa_project_iam" {
+      + etag    = (known after apply)
+      + id      = (known after apply)
+      + member  = "serviceAccount:710171056436@cloudbuild.gserviceaccount.com"
+      + project = "test-project-doni"
+      + role    = "roles/storage.objects.list"
+    }
+
+Plan: 1 to add, 1 to change, 0 to destroy.
+
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/storage.objects.list"]: Creating...
+google_cloudbuild_trigger.pull_request_trigger["bs-docker-test-project-doni-^main$"]: Modifying... [id=projects/test-project-doni/triggers/fe2dd634-d83d-4af1-b834-4d3319879504]
+google_cloudbuild_trigger.pull_request_trigger["bs-docker-test-project-doni-^main$"]: Modifications complete after 2s [id=projects/test-project-doni/triggers/fe2dd634-d83d-4af1-b834-4d3319879504]
+╷
+│ Error: Request `Create IAM Members roles/storage.objects.list serviceAccount:710171056436@cloudbuild.gserviceaccount.com for project "test-project-doni"` returned error: Error applying IAM policy for project "test-project-doni": Error setting IAM policy for project "test-project-doni": googleapi: Error 400: Role roles/storage.objects.list is not supported for this resource., badRequest
+│
+│   with google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/storage.objects.list"],
+│   on cicd4projects-projects-cloudbuild-sa-iam.tf line 41, in resource "google_project_iam_member" "per_project_roles_cloudbuild_sa_project_iam":
+│   41: resource "google_project_iam_member" "per_project_roles_cloudbuild_sa_project_iam" {
+│
+╵
+Releasing state lock. This may take a few moments...
+doni@donis-Mac-mini cicd4projects % terraform apply
+data.google_projects.projects: Reading...
+google_storage_bucket.bucket_terraform_scripts_cache: Refreshing state... [id=tf-cicd4projects-scripts-cache-2]
+google_project_service.project_services["test-project-doni-cloudbuild.googleapis.com"]: Refreshing state... [id=test-project-doni/cloudbuild.googleapis.com]
+google_project_service.project_services["test-project-doni-serviceusage.googleapis.com"]: Refreshing state... [id=test-project-doni/serviceusage.googleapis.com]
+google_project_service.project_services["test-project-doni-iamcredentials.googleapis.com"]: Refreshing state... [id=test-project-doni/iamcredentials.googleapis.com]
+google_storage_bucket.buckets_terraform_cache["test-project-doni"]: Refreshing state... [id=tf1-caches-test-project-doni]
+google_project_service.project_services["test-project-doni-cloudresourcemanager.googleapis.com"]: Refreshing state... [id=test-project-doni/cloudresourcemanager.googleapis.com]
+google_project_service.project_services["test-project-doni-admin.googleapis.com"]: Refreshing state... [id=test-project-doni/admin.googleapis.com]
+google_project_service.project_services["test-project-doni-servicenetworking.googleapis.com"]: Refreshing state... [id=test-project-doni/servicenetworking.googleapis.com]
+google_project_service.project_services["test-project-doni-bigquery.googleapis.com"]: Refreshing state... [id=test-project-doni/bigquery.googleapis.com]
+data.google_projects.projects: Read complete after 1s [id=name:*]
+google_storage_bucket.bucket_terraform_state["test-project-doni"]: Refreshing state... [id=tf1-states-test-project-doni]
+google_project_service.project_services["test-project-doni-iam.googleapis.com"]: Refreshing state... [id=test-project-doni/iam.googleapis.com]
+google_project_service.project_services["test-project-doni-compute.googleapis.com"]: Refreshing state... [id=test-project-doni/compute.googleapis.com]
+google_project_service.project_services["test-project-doni-cloudbilling.googleapis.com"]: Refreshing state... [id=test-project-doni/cloudbilling.googleapis.com]
+google_service_account.pull_request_service_account["bs-docker-test-project-doni-^main$"]: Refreshing state... [id=projects/test-project-doni/serviceAccounts/pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_service_account.push_service_account["bs-docker-test-project-doni-^main$"]: Refreshing state... [id=projects/test-project-doni/serviceAccounts/ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_storage_bucket_object.bucket_terraform_scripts_cache_run_script: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/run.sh]
+google_storage_bucket_object.bucket_terraform_scripts_cache_terraform_version: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/.env.terraform_version]
+google_storage_bucket_object.bucket_terraform_script_cache_readme: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-README.txt]
+google_storage_bucket_object.buckets_terraform_cache_bin_directory["test-project-doni"]: Refreshing state... [id=tf1-caches-test-project-doni-.bin/README.txt]
+google_storage_bucket_object.bucket_terraform_cache_terraform_directory["test-project-doni"]: Refreshing state... [id=tf1-caches-test-project-doni-.terraform/README.txt]
+google_storage_bucket_object.bucket_terraform_scripts_cache_deletion_check_script: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/tf-deletion-check.sh]
+google_storage_bucket_object.bucket_terraform_scripts_cache_github_run_script: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/github_run.sh]
+google_storage_bucket.bucket_terraform_log["test-project-doni"]: Refreshing state... [id=tf1-logs-test-project-doni]
+google_storage_bucket_iam_member.bucket_terraform_state_cloudbuild_sa_admin_iam["test-project-doni"]: Refreshing state... [id=b/tf1-states-test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_cache_cloudbuild_sa_admin_iam["test-project-doni"]: Refreshing state... [id=b/tf1-caches-test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/viewer"]: Refreshing state... [id=test-project-doni/roles/viewer/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/serviceusage.serviceUsageAdmin"]: Refreshing state... [id=test-project-doni/roles/serviceusage.serviceUsageAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/storage.objectAdmin"]: Refreshing state... [id=test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_scripts_cache_cloudbuild_sa_reader_iam["test-project-doni"]: Refreshing state... [id=b/tf-cicd4projects-scripts-cache-2/roles/storage.objectViewer/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_log_cloudbuild_sa_admin_iam["test-project-doni"]: Refreshing state... [id=b/tf1-logs-test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_cloudbuild_trigger.pull_request_trigger["bs-docker-test-project-doni-^main$"]: Refreshing state... [id=projects/test-project-doni/triggers/fe2dd634-d83d-4af1-b834-4d3319879504]
+google_project_iam_member.push_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-ps-bs-docker-main-test-c1b536-roles/cloudbuild.builds.editor"]: Refreshing state... [id=test-project-doni/roles/cloudbuild.builds.editor/serviceAccount:ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_project_iam_member.push_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-ps-bs-docker-main-test-c1b536-roles/artifactregistry.repoAdmin"]: Refreshing state... [id=test-project-doni/roles/artifactregistry.repoAdmin/serviceAccount:ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_project_iam_member.pull_request_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-pr-bs-docker-main-test-c1b536-roles/artifactregistry.repoAdmin"]: Refreshing state... [id=test-project-doni/roles/artifactregistry.repoAdmin/serviceAccount:pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_project_iam_member.pull_request_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-pr-bs-docker-main-test-c1b536-roles/iam.securityReviewer"]: Refreshing state... [id=test-project-doni/roles/iam.securityReviewer/serviceAccount:pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/storage.objectsList"] will be created
+  + resource "google_project_iam_member" "per_project_roles_cloudbuild_sa_project_iam" {
+      + etag    = (known after apply)
+      + id      = (known after apply)
+      + member  = "serviceAccount:710171056436@cloudbuild.gserviceaccount.com"
+      + project = "test-project-doni"
+      + role    = "roles/storage.objectsList"
+    }
+
+Plan: 1 to add, 0 to change, 0 to destroy.
+
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/storage.objectsList"]: Creating...
+╷
+│ Error: Request `Create IAM Members roles/storage.objectsList serviceAccount:710171056436@cloudbuild.gserviceaccount.com for project "test-project-doni"` returned error: Error applying IAM policy for project "test-project-doni": Error setting IAM policy for project "test-project-doni": googleapi: Error 400: Role roles/storage.objectsList is not supported for this resource., badRequest
+│
+│   with google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/storage.objectsList"],
+│   on cicd4projects-projects-cloudbuild-sa-iam.tf line 41, in resource "google_project_iam_member" "per_project_roles_cloudbuild_sa_project_iam":
+│   41: resource "google_project_iam_member" "per_project_roles_cloudbuild_sa_project_iam" {
+│
+╵
+doni@donis-Mac-mini cicd4projects % terraform apply
+data.google_projects.projects: Reading...
+google_project_service.project_services["test-project-doni-cloudbilling.googleapis.com"]: Refreshing state... [id=test-project-doni/cloudbilling.googleapis.com]
+google_project_service.project_services["test-project-doni-bigquery.googleapis.com"]: Refreshing state... [id=test-project-doni/bigquery.googleapis.com]
+google_project_service.project_services["test-project-doni-serviceusage.googleapis.com"]: Refreshing state... [id=test-project-doni/serviceusage.googleapis.com]
+google_project_service.project_services["test-project-doni-servicenetworking.googleapis.com"]: Refreshing state... [id=test-project-doni/servicenetworking.googleapis.com]
+google_project_service.project_services["test-project-doni-admin.googleapis.com"]: Refreshing state... [id=test-project-doni/admin.googleapis.com]
+google_storage_bucket.bucket_terraform_scripts_cache: Refreshing state... [id=tf-cicd4projects-scripts-cache-2]
+google_project_service.project_services["test-project-doni-iamcredentials.googleapis.com"]: Refreshing state... [id=test-project-doni/iamcredentials.googleapis.com]
+google_project_service.project_services["test-project-doni-compute.googleapis.com"]: Refreshing state... [id=test-project-doni/compute.googleapis.com]
+google_storage_bucket.buckets_terraform_cache["test-project-doni"]: Refreshing state... [id=tf1-caches-test-project-doni]
+google_project_service.project_services["test-project-doni-cloudbuild.googleapis.com"]: Refreshing state... [id=test-project-doni/cloudbuild.googleapis.com]
+google_project_service.project_services["test-project-doni-iam.googleapis.com"]: Refreshing state... [id=test-project-doni/iam.googleapis.com]
+data.google_projects.projects: Read complete after 1s [id=name:*]
+google_project_service.project_services["test-project-doni-cloudresourcemanager.googleapis.com"]: Refreshing state... [id=test-project-doni/cloudresourcemanager.googleapis.com]
+google_storage_bucket_object.bucket_terraform_scripts_cache_terraform_version: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/.env.terraform_version]
+google_service_account.push_service_account["bs-docker-test-project-doni-^main$"]: Refreshing state... [id=projects/test-project-doni/serviceAccounts/ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_storage_bucket.bucket_terraform_state["test-project-doni"]: Refreshing state... [id=tf1-states-test-project-doni]
+google_storage_bucket_object.bucket_terraform_scripts_cache_github_run_script: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/github_run.sh]
+google_service_account.pull_request_service_account["bs-docker-test-project-doni-^main$"]: Refreshing state... [id=projects/test-project-doni/serviceAccounts/pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_storage_bucket_object.buckets_terraform_cache_bin_directory["test-project-doni"]: Refreshing state... [id=tf1-caches-test-project-doni-.bin/README.txt]
+google_storage_bucket_object.bucket_terraform_scripts_cache_run_script: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/run.sh]
+google_storage_bucket_object.bucket_terraform_script_cache_readme: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-README.txt]
+google_storage_bucket_object.bucket_terraform_scripts_cache_deletion_check_script: Refreshing state... [id=tf-cicd4projects-scripts-cache-2-.trigger_scripts/tf-deletion-check.sh]
+google_storage_bucket.bucket_terraform_log["test-project-doni"]: Refreshing state... [id=tf1-logs-test-project-doni]
+google_storage_bucket_object.bucket_terraform_cache_terraform_directory["test-project-doni"]: Refreshing state... [id=tf1-caches-test-project-doni-.terraform/README.txt]
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/serviceusage.serviceUsageAdmin"]: Refreshing state... [id=test-project-doni/roles/serviceusage.serviceUsageAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_scripts_cache_cloudbuild_sa_reader_iam["test-project-doni"]: Refreshing state... [id=b/tf-cicd4projects-scripts-cache-2/roles/storage.objectViewer/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/storage.objectAdmin"]: Refreshing state... [id=test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_cache_cloudbuild_sa_admin_iam["test-project-doni"]: Refreshing state... [id=b/tf1-caches-test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_project_iam_member.per_project_roles_cloudbuild_sa_project_iam["test-project-doni-roles/viewer"]: Refreshing state... [id=test-project-doni/roles/viewer/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_state_cloudbuild_sa_admin_iam["test-project-doni"]: Refreshing state... [id=b/tf1-states-test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_storage_bucket_iam_member.bucket_terraform_log_cloudbuild_sa_admin_iam["test-project-doni"]: Refreshing state... [id=b/tf1-logs-test-project-doni/roles/storage.objectAdmin/serviceAccount:710171056436@cloudbuild.gserviceaccount.com]
+google_cloudbuild_trigger.pull_request_trigger["bs-docker-test-project-doni-^main$"]: Refreshing state... [id=projects/test-project-doni/triggers/fe2dd634-d83d-4af1-b834-4d3319879504]
+google_project_iam_member.push_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-ps-bs-docker-main-test-c1b536-roles/cloudbuild.builds.editor"]: Refreshing state... [id=test-project-doni/roles/cloudbuild.builds.editor/serviceAccount:ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_project_iam_member.push_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-ps-bs-docker-main-test-c1b536-roles/artifactregistry.repoAdmin"]: Refreshing state... [id=test-project-doni/roles/artifactregistry.repoAdmin/serviceAccount:ps-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_project_iam_member.pull_request_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-pr-bs-docker-main-test-c1b536-roles/iam.securityReviewer"]: Refreshing state... [id=test-project-doni/roles/iam.securityReviewer/serviceAccount:pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+google_project_iam_member.pull_request_service_account_project_roles_iam["bs-docker-test-project-doni-^main$-pr-bs-docker-main-test-c1b536-roles/artifactregistry.repoAdmin"]: Refreshing state... [id=test-project-doni/roles/artifactregistry.repoAdmin/serviceAccount:pr-bs-docker-main-test-c1b536@test-project-doni.iam.gserviceaccount.com]
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  ~ update in-place
+
+Terraform will perform the following actions:
+
+  # google_cloudbuild_trigger.pull_request_trigger["bs-docker-test-project-doni-^main$"] will be updated in-place
+  ~ resource "google_cloudbuild_trigger" "pull_request_trigger" {
+        id                 = "projects/test-project-doni/triggers/fe2dd634-d83d-4af1-b834-4d3319879504"
+      ~ included_files     = [
+          - "php/tf-cloudbuild-trigger/**",
+          - "nginx/tf-cloudbuild-trigger/**",
+          + "tf-cloudbuild-trigger/**",
+        ]
+        name               = "pr--bs-docker--test--main"
+        tags               = [
+            "PR",
