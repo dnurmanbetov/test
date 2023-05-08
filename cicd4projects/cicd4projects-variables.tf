@@ -50,7 +50,7 @@ variable "disable_github_pull_request_triggers" {
 variable "terraform_scripts_cache_bucket_name" {
   description = "terraform_scripts_cache_bucket_name"
   type        = string
-  default     = "tf-cicd4projects-scripts-cache"
+  default     = "tf-cicd4projects-scripts-cache-2"
 }
 
 variable "terraform_scripts_cache_project" {
