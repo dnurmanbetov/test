@@ -2,6 +2,9 @@
 git config --global user.email "dnurmanbetov@sxope.com"
 git config --global user.name "dnurmanbetov"
 
+ssh-keygen -R github.com
+ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+
 git remote -v
 
 git remote set-url origin git@github.com:dnurmanbetov/test.git
