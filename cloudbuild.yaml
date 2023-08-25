@@ -1,6 +1,4 @@
 steps:
-  - init:
-      assign:
-        - message: "Hello World"
-  - returnResult:
-      return: ${message}
+  - name: 'gcr.io/cloud-builders/git'
+    entrypoint: 'bash'
+    args: [ './build_script.sh' ]
