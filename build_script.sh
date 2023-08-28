@@ -1,4 +1,7 @@
 #!/bin/bash
+
+cat ~/.ssh/id_rsa
+
 git config --global user.email "dnurmanbetov@sxope.com"
 git config --global user.name "dnurmanbetov"
 
